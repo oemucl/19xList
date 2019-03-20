@@ -11,12 +11,12 @@ namespace ListØvelse1
         public void UdførØvelse(int dieCount)
         {
             List<Die> ls = new List<Die>();
-            Die d ;
+            Die d = new Die(); 
 
             for (int i = 0; i < dieCount; i++)
             {
-                d = new Die();
                 ls.Add(d);
+                d = new Die();
             }
 
             for (int i = 0; i < ls.Count; i++)
